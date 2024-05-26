@@ -1,6 +1,7 @@
 @extends('admin.app')
 @section('content')
     <div class="content-wrapper">
+        <h4 class="fw-bold mb-4"><span class="text-muted fw-light">Sikma |</span> OPERATOR SATUAN PENDIDIKAN</h4>
         <!-- Content -->
 
         <div class="container-xxl flex-grow-1 container-p-y">
@@ -53,25 +54,26 @@
                                         <div class="col mb-0">
                                             <div class="form-password-toggle">
                                                 <label class="form-label" for="multicol-password">Password</label>
-                                                <div class="input-group input-group-merge">
-                                                    <input type="password" id="multicol-password" class="form-control"
-                                                        placeholder="&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;"
-                                                        aria-describedby="multicol-password2" />
-                                                    <span class="input-group-text cursor-pointer" id="multicol-password2"><i
-                                                            class="ti ti-eye-off"></i></span>
+                                                <div class="input-group input-group-merge form-password-toggle mb-2">
+                                                    <input type="password" class="form-control" id="basic-default-password1"
+                                                        placeholder="Your Password"
+                                                        aria-describedby="basic-default-password1" />
+                                                    <span class="input-group-text cursor-pointer"><i
+                                                            data-feather="eye"></i></span>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col mb-0">
                                             <div class="form-password-toggle">
                                                 <label class="form-label" for="multicol-confirm-password">Confirm
-                                                Password</label>
+                                                    Password</label>
                                                 <div class="input-group input-group-merge">
-                                                    <input type="password" id="multicol-confirm-password" class="form-control"
-                                                    placeholder="&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;"
-                                                    aria-describedby="multicol-confirm-password2" />
-                                                    <span class="input-group-text cursor-pointer"
-                                                        id="multicol-password2"><i class="ti ti-eye-off"></i></span>
+                                                    <input type="password" id="multicol-confirm-password"
+                                                        class="form-control"
+                                                        placeholder="&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;"
+                                                        aria-describedby="multicol-confirm-password2" />
+                                                    <span class="input-group-text cursor-pointer" id="multicol-password2"><i
+                                                            class="ti ti-eye-off"></i></span>
                                                 </div>
                                             </div>
                                         </div>

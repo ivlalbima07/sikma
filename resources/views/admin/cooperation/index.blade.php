@@ -116,12 +116,21 @@
                     <h1 class="modal-title fs-5" id="staticBackdropLabel">Pilih Data Perusahaan</h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="modal-body">
-                    ...
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Understood</button>
+                <div class="modal-body text-center">
+                    <div class="d-flex justify-content-center px-5">
+                        <div class="col mb-1">
+                                               <div class="input-group">
+                                                   <input type="text" class="form-control" placeholder="Button on right" aria-describedby="button-addon2" />
+                                                   <button class="btn btn-outline-primary" id="button-addon2" type="button">Go</button>
+                                               </div>
+                                           </div>
+                                        </div>
+                                        <div class="justify-content-center">
+
+                                            <span class="text-center" >
+                                                <a  href="" >Klik untuk melihat Referensi Data Integrasi</a>
+                                            </span>
+                                        </div>
                 </div>
             </div>
         </div>
