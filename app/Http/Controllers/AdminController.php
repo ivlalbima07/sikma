@@ -6,10 +6,6 @@ use Illuminate\Http\Request;
 
 class AdminController extends Controller
 {
-  public function index()
-    {
-        return view('admin.index');
-    }
 
     public function recap()
     {
@@ -39,5 +35,14 @@ class AdminController extends Controller
     public function operator()
     {
         return view('admin.unitoperator.index');
+    }
+
+    public function resetpassword()
+    {
+        return view('admin.reset_password.index');
+    }
+    public function DosenTamu()
+    {
+        return view('admin.implementation.dosentamu.index');
     }
 }

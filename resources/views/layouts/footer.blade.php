@@ -5,12 +5,7 @@
         <img src="{{ asset('app-assets/preloaders/purple-dual-ring-loader.gif') }}" height="100" width="100">
     </div>
 
-    <!-- BEGIN: Footer-->
-    <footer class="footer footer-static footer-light">
-        <p class="clearfix mb-0"><span class="float-md-start d-block d-md-inline-block mt-25">Copyright &copy; 2022 - {{ date('Y') }}<a class="ms-25" href="#" target="_blank">Tania Perfume v2.0</a><span class="d-none d-sm-inline-block">. All rights Reserved</span></span><span class="float-md-end d-none d-md-block">Supported By <a href="https://madtive.com">Madtive Studio</a><i data-feather="heart"></i></span></p>
-    </footer>
-    <button class="btn btn-primary btn-icon scroll-top" type="button"><i data-feather="arrow-up"></i></button>
-    <!-- END: Footer-->
+
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 

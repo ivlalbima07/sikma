@@ -22,7 +22,7 @@
                     <thead>
                         <tr>
                             <th>#</th>
-                            <th>Nama</th>
+                            <th style="width: 20%">Nama</th>
                             <th>Jabatan</th>
                             <th>NO Telepon</th>
                             <th>Email</th>
@@ -32,14 +32,16 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <th>1</th>
-                            <td>Gusniawan Amd</td>
-                            <td>Staf</td>
-                            <td>081287632225</td>
-                            <td>gusniawana@yahoo.com</td>
-                            <td class="fs-5">DIREKTORAT KELEMBAGAAN DAN SUMBER DAYA PENDIDIKAN TINGGI VOKASI DIREKTORAT JENDERAL
-                                PENDIDIKAN VOKASI</td>
-                            <td>
+                            <th class="text-center align-top">1</th>
+                            <td class=" align-top">Gusniawan Amd</td>
+                            <td class="text-center align-top">Staf</td>
+                            <td class="text-center align-top">081287632225</td>
+                            <td class="text-center align-top">gusniawana@yahoo.com</td>
+                            <td class=" align-top"> <span style="font-size:.8125rem;">DIREKTORAT KELEMBAGAAN DAN SUMBER DAYA
+                                    PENDIDIKAN TINGGI VOKASI
+                                    DIREKTORAT JENDERAL
+                                    PENDIDIKAN VOKASI</span></td>
+                            <td class="text-center align-top">
                                 <div class="btn-group" role="group" aria-label="Basic example">
                                     <button type="button" class="btn btn-warning btn-sm"><svg
                                             xmlns="http://www.w3.org/2000/svg" width="16" height="16"
@@ -96,14 +98,72 @@
     <!-- Modal -->
     <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
         aria-labelledby="staticBackdropLabel" aria-hidden="true">
-        <div class="modal-dialog">
+        <div class="modal-dialog modal-lg">
             <div class="modal-content">
                 <div class="modal-header">
                     <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    ...
+                    <div class="col mb-1">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Button on right"
+                                aria-describedby="button-addon2" />
+                            <button class="btn btn-outline-primary" id="button-addon2" type="button">Go</button>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-xl-4 col-md-6 col-12">
+                                <div class="mb-1">
+                                    <label class="form-label" for="basicInput">Basic Input</label>
+                                    <input type="text" class="form-control" id="basicInput" placeholder="Enter email" />
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-md-6 col-12">
+                                <div class="mb-1">
+                                    <label class="form-label" for="basicInput">Basic Input</label>
+                                    <input type="text" class="form-control" id="basicInput" placeholder="Enter email" />
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-md-6 col-12">
+                                <div class="mb-1">
+                                    <label class="form-label" for="basicInput">Basic Input</label>
+                                    <input type="text" class="form-control" id="basicInput" placeholder="Enter email" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 col-12 mb-1 mb-sm-0">
+                                <label class="form-label" for="select2-disabled-result">Disabled Results</label>
+                                <select class="select2 form-select" id="select2-disabled-result">
+                                    <option value="" selected disabled label="Add project members by name or email..."></option>
+                                    <option value="2">Option2</option>
+                                    <option value="3">Option3</option>
+                                </select>
+                            </div>
+                            <div class="col-sm-6 col-12">
+                                    <label class="form-label" for="basicInput">Basic Input</label>
+                                    <input type="text" class="form-control" id="basicInput"
+                                        placeholder="Enter email" />
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 col-12 mb-1 mb-sm-0">
+                                <label class="form-label" for="select2-disabled-result">Disabled Results</label>
+                                <select class="select2 form-select" id="select2-disabled-result">
+                                    <option value="" label="Add project members by name or email..."></option>
+                                    <option value="2">Option2</option>
+                                    <option value="3">Option3</option>
+                                </select>
+                            </div>
+                            <div class="col-sm-6 col-12">
+                                    <label class="form-label" for="basicInput">Basic Input</label>
+                                    <input type="text" class="form-control" id="basicInput"
+                                        placeholder="Enter email" />
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
