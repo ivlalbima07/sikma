@@ -34,7 +34,7 @@
                                     <div class="mb-1">
                                         <div class="d-flex justify-content-between">
                                             <label class="form-label" for="login-password">Password</label><a
-                                                href="auth-forgot-password-cover.html"><small>Forgot Password?</small></a>
+                                                href="/forgotpassword"><small>Forgot Password?</small></a>
                                         </div>
                                         <div class="input-group input-group-merge form-password-toggle">
                                             <input class="form-control form-control-merge" id="login-password"

@@ -127,7 +127,7 @@
                                 <div class="overlay-dark-2"></div>
                                 <div class="text-isi">
                                     <div class="text-white">Dosen/Tenaga Ahli dari Dunia Kerja<br>(Dosen Tamu)</div>
-                                    <a type="button" class="btn btn-sm btn-light mt-2"> Isi Pelaksanaan <i
+                                    <a type="button" href="/DosenTamu" class="btn btn-sm btn-light mt-2">  <i
                                             class="bx bx-right-arrow-alt"></i></a>
                                 </div>
                             </div>

@@ -68,6 +68,16 @@
             </svg><span class="menu-title text-truncate" data-i18n="Dashboard">Operator Satuan</span>
         </a>
     </li>
+    {{-- <li class="nav-item {{ request()->is('resetpassword') ? 'active' : '' }}">
+        <a class="d-flex align-items-center" href="{{ url('/resetpassword') }}">
+            <i data-feather='key'></i><span class="menu-title text-truncate" data-i18n="Dashboard">Ganti kata sandi</span>
+        </a>
+    </li>
+    <li class="nav-item {{ request()->is('') ? 'active' : '' }}">
+        <a class="d-flex align-items-center" href="{{ url('') }}">
+            <i data-feather='log-out'></i><span class="menu-title text-truncate" data-i18n="Dashboard">Log-Out</span>
+        </a>
+    </li> --}}
 
     {{-- <li class="nav-item {{ request()->is('storages/dashboard') ? 'active' : '' }}"><a class="d-flex align-items-center" href="{{ url('storages/dashboard') }}"><i data-feather="home"></i><span class="menu-title text-truncate" data-i18n="Dashboard">Dashboard</span></a></li>
 <li class="nav-item"><a class="d-flex align-items-center" href="#"><i data-feather="database"></i><span class="menu-title text-truncate" data-i18n="Data Master">Data Master</span></a>

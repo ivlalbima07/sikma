@@ -14,7 +14,7 @@
     <div class="col-xl-12 col-md-12 col-12">
         <div class="card card-statistics px-0">
             <div class="card-header d-block px-2">
-                <h4 class="card-title">Selamat Datang, {{ Auth::user()->username ?? '' }}</h4>
+                <h4 class="card-title">Selamat Datang {{ Auth::user()->username ?? '' }}</h4>
                 <span class="card-subtitle text-gray">Informasi Dashboard</span>
             </div>
 

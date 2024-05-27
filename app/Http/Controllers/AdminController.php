@@ -36,4 +36,13 @@ class AdminController extends Controller
     {
         return view('admin.unitoperator.index');
     }
+
+    public function resetpassword()
+    {
+        return view('admin.reset_password.index');
+    }
+    public function DosenTamu()
+    {
+        return view('admin.implementation.dosentamu.index');
+    }
 }
