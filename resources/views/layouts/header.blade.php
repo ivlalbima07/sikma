@@ -154,12 +154,13 @@
                             data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <div class="user-nav d-sm-flex d-none"><span
                                     class="user-name fw-bolder">{{ ucfirst(Auth::user()->username ?? '') }}</span></span>
-                                    <i data-feather='settings'></i>
+                                <i data-feather='settings'></i>
                         </a>
-                        <div class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdown-user" >
+                        <div class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdown-user">
                             {{-- <a class="dropdown-item" href="{{ routeProfile(Auth::id(), Auth::user()->role ?? '') }}"><i class="me-50" data-feather="user"></i> Profile</a> --}}
-                            <a class="dropdown-item" href="/resetpassword" ><i clas="me-50" data-feather='key'></i > Ganti kata sandi</a>
-                            <a class="dropdown-item" href="#" id="logout"><i class="me-50"
+                            <a class="dropdown-item" href="/resetpassword"><i clas="me-50" data-feather='key'></i>
+                                Ganti kata sandi</a>
+                            <a class="dropdown-item" href="{{ route('logout') }}"><i class="me-50"
                                     data-feather="log-out"></i> Keluar</a>
                         </div>
                     </li>

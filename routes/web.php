@@ -3,7 +3,7 @@ use App\Http\Controllers\AdminController;
 use App\Http\Controllers\AuthController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', [AdminController::class, 'dashboard'])->name('dashboard');
+// Route::get('/', [AdminController::class, 'dashboard'])->name('dashboard');
 Route::get('/recap', [AdminController::class, 'recap'])->name('recap');
 Route::get('/dashboard', [AdminController::class, 'dashboard'])->name('dashboard');
 Route::get('/cooperation', [AdminController::class, 'cooperation'])->name('cooperation');
@@ -14,5 +14,7 @@ Route::get('/operator', [AdminController::class, 'operator'])->name('operator');
 Route::get('/resetpassword', [AdminController::class, 'resetpassword'])->name('resetpassword');
 
 //auth//
-Route::get('/login', [AuthController::class, 'login'])->name('login');
+Route::get('/login', [AuthController::class, 'showLoginForm'])->name('loginForm');;
+Route::post('/loginProses', [AuthController::class, 'login'])->name('ceklogin');
+Route::get('/logout', [AuthController::class, 'logout'])->name('logout');
 Route::get('/forgotpassword', [AuthController::class, 'forgotpassword'])->name('forgotpassword');
